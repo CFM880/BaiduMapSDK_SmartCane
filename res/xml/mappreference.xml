@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+     <PreferenceCategory android:title="发送号码">
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="locationToTarget"
+            android:summary="设置发送电话号码"
+            android:title="设置发送电话号码"/>
+	    
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="规划方式">
+   		<ListPreference
+   		    android:key="list_preference"
+            android:title="规划方式"
+            android:defaultValue="@string/default_value"
+            android:summary="选择规划方式"
+            android:entries="@array/show_way"
+            android:entryValues="@array/way"
+            android:dialogTitle="选择规划方式" />
+	    
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="发送内容">
+	    <EditTextPreference
+	        android:defaultValue="#Location"
+	        android:key="message"
+	        android:summary="编辑发送内容"
+	        android:title="编辑发送内容"/>
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="接收号码">
+	    <EditTextPreference
+	        android:defaultValue=""
+	        android:key="targetToLocation"
+	        android:summary="设置接收电话号码"
+	        android:title="设置接收电话号码"/>
+	</PreferenceCategory>
+</PreferenceScreen>

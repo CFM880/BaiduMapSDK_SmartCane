@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="show_way">
+        <item>步行</item>
+        <item>公交车</item>
+        <item>汽车</item>
+    </string-array>
+    <string-array name="way">
+        <item>walk</item>
+        <item>bus</item>
+        <item>car</item>
+    </string-array>
+</resources>

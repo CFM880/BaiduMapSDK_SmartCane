@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+	<com.baidu.mapapi.map.MapView  
+	   android:id="@+id/bmapView"  
+	   android:layout_width="fill_parent"  
+	   android:layout_height="fill_parent"  
+	   android:clickable="true" />
+
+	<LinearLayout
+	    android:id="@+id/linearLayout2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="40dp"
+	    android:gravity="center" >
+
+		<ImageButton
+		    android:id="@+id/ib_my"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/ic_my_location_black_24dp" />
+	    
+	    <ImageButton
+	        android:id="@+id/ib_plant_route"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/ic_plant_route_24px" />
+	    
+	      <ImageButton
+	        android:id="@+id/ib_send"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/ic_send_24px" />
+	    
+	      <ImageButton
+	        android:id="@+id/ib_settings"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/ic_settings_24px" />
+
+	      <ImageButton
+	          android:id="@+id/ib_target"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:src="@drawable/ic_my_location_red_24dp" />
+	    
+	</LinearLayout>
+
+	<LinearLayout
+	    android:id="@+id/linearLayout1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/linearLayout2"
+	    android:gravity="center" >
+
+	    <ImageButton
+	        android:id="@+id/ib_before"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/ic_before_24px" />
+
+	    <ImageButton
+	        android:id="@+id/ib_next"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/ic_next_24px" />
+	</LinearLayout>
+
+	
+  
+</RelativeLayout>
